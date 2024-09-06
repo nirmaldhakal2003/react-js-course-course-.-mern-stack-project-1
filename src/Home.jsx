@@ -1,5 +1,8 @@
 import './Home.css'
 import { Link } from 'react-router-dom'
+import Button from './Button'
+import Card from './Card'
+
 
 function Home(){
     return (
@@ -15,7 +18,8 @@ function Home(){
                 <li><Link to="#">Contact</Link></li>
             </ul>
         </nav>
-        
+        <Button text='Nirmal Dhakal'/>
+        <Card title = 'Home page'/>
         <section className="content">
             <h1>I am Nirmal Dhakal</h1>
             <h1>Welcome to My Website</h1>
