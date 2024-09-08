@@ -4,6 +4,7 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Test from './test'
+import UseState from './UseState'
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Route path='/' element={<Home />}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/test' element={<Test />}/>
+    <Route path='/useState' element ={<UseState />}/>
 
 
 
